@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844077873790",
+    "firebase_url": "https://food-bed2e.firebaseio.com",
+    "project_id": "food-bed2e",
+    "storage_bucket": "food-bed2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844077873790:android:5c9e4ac769be108f8bb62f",
+        "android_client_info": {
+          "package_name": "com.example.basicfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844077873790-c3apqcu1a6vfmnlgn87k3t26n6f74dno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.basicfirebase",
+            "certificate_hash": "1205c96010965898d329989fe35f54efbcbf9472"
+          }
+        },
+        {
+          "client_id": "844077873790-ul764eqeo0hpihd9fiesaq0k77js1lfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9KevJ3PkpPA-fZL292ip5aWpYv7tnd9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844077873790-ul764eqeo0hpihd9fiesaq0k77js1lfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

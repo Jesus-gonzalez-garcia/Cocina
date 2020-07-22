@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorBlue"
+    tools:context=".SignUpActivity">
+
+    <TextView
+        android:text="Crear Cuenta"
+        android:textSize="32sp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/edtxt_sign_up_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="2"
+            android:hint="Nombre" />
+
+        <EditText
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:id="@+id/edtxt_sign_up_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="2"
+            android:hint="Apellido" />
+
+    </LinearLayout>
+
+    <EditText
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:imeOptions="actionNext"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="12dp"
+        android:id="@+id/edtxt_sign_up_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Email" />
+
+    <EditText
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/edtxt_sign_up_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Password" />
+
+    <Button
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="Registrarse"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorYellow"
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
